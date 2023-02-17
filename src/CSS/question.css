@@ -1,0 +1,102 @@
+.Question {
+  display: flex;
+  flex-wrap: wrap;
+  height: 80vh;
+  justify-content: space-around;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  top: 30px;
+}
+
+.Question-questions {
+  background-color: antiquewhite;
+  border-radius: 20px;
+  box-shadow: 1px 4px 13px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-between;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 400px;
+}
+
+.QuestionTittle {
+  background-color: #2fc18c;
+  border-radius: 20px;
+  color: black;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -30px;
+  width: 80%;
+}
+
+.btn-Default {
+  border-radius: 50px;
+  height: 60px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.QuestionAnswerOptions {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 400px;
+}
+
+.right {
+  border: 3px solid rgb(6, 240, 15);
+  border-radius: 50px;
+  height: 60px;
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.wrong {
+  border: 3px solid red;
+  border-radius: 50px;
+  height: 60px;
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.QuestionWrongIcon {
+  color: red;
+  height: 70%;
+  left: -100px;
+  position: absolute;
+  top: 10px;
+  width: 70%;
+}
+
+.QuestionRightIcon {
+  color: green;
+  height: 70%;
+  left: -100px;
+  position: absolute;
+  top: 10px;
+  width: 70%;
+}
+
+.QuestionNextBtn {
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  font-size: 1.5rem;
+  height: 50px;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+}
+
+.QuestionNextBtn:hover {
+  background-color: #2fc18c;
+}
+

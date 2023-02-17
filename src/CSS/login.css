@@ -1,0 +1,115 @@
+.Login {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  margin: auto;
+  width: 80vw;
+}
+
+.LoginAside {
+  display: flex;
+  width: 35vw;
+}
+
+.LoginAside:before {
+  border-left: 3px solid black;
+  content: '';
+  height: 350px;
+  margin-bottom: auto;
+  margin-right: 25px;
+  margin-top: auto;
+}
+
+.LoginForms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.LoginInput {
+  background-color: var(--main-color);
+  border: none;
+  border-bottom: 1px solid black;
+  box-shadow: 0 0 0 0;
+  height: 50px;
+  outline: 0;
+  resize: 0;
+  width: 100%;
+}
+
+.LoginInput::placeholder {
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+
+.LoginIcon {
+  height: 300px;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 300px;
+}
+
+.LoginButton {
+  border-radius: 15px;
+  height: 35px;
+  margin-top: 10px;
+  width: 130px;
+}
+
+.LoginButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.LoginButtonPlay {
+  border-radius: 15px;
+  font-size: 1rem;
+  height: 45px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.LoginButtonPlay:hover {
+  background-color: #2fc18c;
+}
+
+.LoginButtonPlay:disabled:hover {
+  background-color: rgba(239, 239, 239, 0.3);
+}
+
+.LoginButtonSettings {
+  display: none;
+}
+
+.LoginSettings {
+  height: 50px;
+  width: 50px;
+}
+
+.LoginSettingsLabel {
+  height: 50px;
+  width: 50px;
+}
+
+@media ( width < 800px ) {
+
+  .LoginIcon {
+    display: none;
+  }
+
+  .Login {
+    width: 100vw;
+  }
+
+  .LoginAside {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .LoginAside:before {
+    display: none;
+  }
+}

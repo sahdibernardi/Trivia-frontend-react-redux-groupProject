@@ -1,0 +1,76 @@
+.Ranking {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.RankingLeaders {
+  background-color: white;
+  border-radius: 20px;
+  height: 500px;
+  margin: 30px;
+  width: 430px;
+}
+
+.RankingBtn {
+  background-color: #2FC18C;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: sans-serif;
+  font-size: large;
+  height: 40px;
+  position: relative;
+  top: 60px;
+  width: 80%;
+}
+
+.RankingHomeIcon {
+  position: relative;
+  top: 2px;
+}
+
+.RankingLeader {
+  align-items: center;
+  background-color: #EBEBEB;
+  border-radius: 30px;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  position: relative;
+  top: 30px;
+  width: 80%;
+}
+
+.RankingLeaderImg {
+  border-radius: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.RankingUser {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.RankingScore {
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 100px;
+  box-shadow: 0 4px 22px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-around;
+  width: 115px;
+}
+
+.RankingIcon {
+  color: yellow;
+  height: 30px;
+  width: 30px;
+}
