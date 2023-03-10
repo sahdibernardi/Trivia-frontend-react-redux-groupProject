@@ -1,0 +1,65 @@
+.SettingsThemeIconOn {
+  color: yellow;
+  height: 50px;
+  width: 50px;
+}
+
+.SettingsThemeIconOff {
+  height: 50px;
+  width: 50px;
+}
+
+.Settings {
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  margin: auto;
+  position: relative;
+  top: 20vh;
+  width: 600px;
+}
+
+.SettingsSelect {
+  height: 35px;
+  margin-top: 10px;
+  width: 400px;
+}
+
+.SettingsHeader {
+  align-items: center;
+  display: flex;
+  position: relative;
+  top: 5px;
+}
+
+.SettingsHome {
+  border-radius: 10px;
+  height: 40px;
+  position: relative;
+  top: 30px;
+  width: 400px;
+}
+
+
+@media ( max-width : 660px ) {
+
+  .SettingsSelect {
+    height: 35px;
+    width: 75vw;
+  }
+
+  .SettingsTitle {
+    font-size: 6vw;
+  }
+
+  .Settings {
+    width: 90vw;
+  }
+
+  .SettingsHome {
+    width: 75vw;
+  }
+}
