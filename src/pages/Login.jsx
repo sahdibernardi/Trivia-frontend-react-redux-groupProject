@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import triviaLogo from '../trivia.png'
-// import { BsController } from 'react-icons/bs';
 import { IoSettings } from 'react-icons/io5';
 import { FaPlay } from 'react-icons/fa';
 import { saveToken } from '../localStorage';
