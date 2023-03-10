@@ -6,15 +6,16 @@ The "Trivia-frontend-react-redux-groupProject" is a web application that allows 
 This project is built using React, Redux, RTL, Jest, Cypress and React Router. It's is a collaborative project completed as part of a group project.
 
 You can view the up to date deploy here: 
+https://trivia-frontend-react-redux-group-project.vercel.app/
 
 ## Features
 The application allows users to:
 
-- Login using an authenticated email and password
-- Select a category and difficulty level to play trivia games
+- Login using an authenticated email
+- Set configurations such a category and difficulty level to play trivia games
+- Set lightmode/darkmode
 - Answer trivia questions and receive immediate visual feedback on their answers
 - Track their score and see their ranking on a leaderboard
-- Play against other users in real-time
 
 ## Technologies
 The application is built using the following technologies:
